@@ -224,7 +224,7 @@ export default function App() {
             {/* CTA */}
             <div>
               <a
-                href="https://samfabrications.co.in"
+                href="https://samfabrications.co.in/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-foreground text-background rounded-lg hover:bg-foreground/90 transition-all"
