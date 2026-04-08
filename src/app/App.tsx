@@ -77,6 +77,7 @@ export default function App() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
+                aria-label="LinkedIn"
               >
                 <Linkedin className="w-5 h-5" />
               </a>
@@ -85,8 +86,23 @@ export default function App() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
+                aria-label="GitHub"
               >
                 <Github className="w-5 h-5" />
+              </a>
+              <a
+                href="/src/imports/Uzair_Shaikh.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-4 py-2 bg-muted text-foreground rounded-lg border border-border hover:bg-foreground hover:text-background transition-all font-medium"
+                aria-label="Resume"
+              >
+                {/* Document/Download Icon (SVG) */}
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 2.75a.75.75 0 0 1 .75.75v8.19l2.22-2.22a.75.75 0 1 1 1.06 1.06l-3.5 3.5a.75.75 0 0 1-1.06 0l-3.5-3.5a.75.75 0 1 1 1.06-1.06l2.22 2.22V3.5a.75.75 0 0 1 .75-.75z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M4.75 17.25a.75.75 0 0 1-.75-.75v-2.5a.75.75 0 0 1 1.5 0v1.75h8.5v-1.75a.75.75 0 0 1 1.5 0v2.5a.75.75 0 0 1-.75.75h-10.5z" />
+                </svg>
+                Resume
               </a>
             </div>
           </motion.div>
