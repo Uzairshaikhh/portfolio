@@ -3,6 +3,7 @@ import { AnimatePresence, motion, useMotionValueEvent, useScroll, useSpring } fr
 import { ArrowUpRight, Menu, X } from "lucide-react";
 import { nav, profile } from "../../data/resume";
 import { useActiveSection } from "../../hooks/useActiveSection";
+import { Logo } from "./Logo";
 
 const SECTIONS = ["top", "about", "skills", "work", "experience", "process", "statement", "github", "resume", "contact"];
 /** Sections without their own nav link highlight the nearest one. */
@@ -57,9 +58,9 @@ export function Nav() {
             href="#top"
             onClick={link("top")}
             aria-label={`${profile.name} — back to top`}
-            className="grid size-9 place-items-center rounded-full bg-white/[0.06] font-mono text-xs font-medium tracking-wider text-signal transition-colors hover:bg-signal hover:text-void"
+            className="group block size-10 shrink-0 rounded-full"
           >
-            {profile.monogram}
+            <Logo />
           </a>
 
           <ul className="mx-1 hidden items-center md:flex">

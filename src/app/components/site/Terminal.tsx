@@ -50,7 +50,7 @@ export function Terminal({ mx, my, d = 0 }: { mx: MotionValue<number>; my: Motio
           <span className="size-2.5 rounded-full bg-white/15" />
           <span className="ml-3 font-mono text-[0.7rem] text-mute">uzair.ts</span>
         </div>
-        <pre className="overflow-x-auto px-5 py-4 font-mono text-[0.78rem] leading-[1.75] sm:text-[0.84rem]">
+        <pre className="overflow-x-auto px-4 py-4 font-mono text-[0.66rem] leading-[1.8] sm:px-5 sm:text-[0.84rem] sm:leading-[1.75]">
           <code>
             {lines.map((l, i) => (
               <motion.span

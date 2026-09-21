@@ -151,7 +151,7 @@ export function Hero() {
 
         <div className="mt-9 grid items-end gap-10 sm:mt-11 lg:grid-cols-12 lg:gap-8 [@media(max-height:800px)]:sm:mt-5">
           <motion.div
-            className="space-y-6 lg:col-span-6 [@media(max-height:800px)]:lg:space-y-4"
+            className="min-w-0 space-y-6 lg:col-span-6 [@media(max-height:800px)]:lg:space-y-4"
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 + d, duration: 0.9, ease: [0.2, 0.7, 0.1, 1] }}
@@ -188,7 +188,7 @@ export function Hero() {
             </div>
           </motion.div>
 
-          <div className="relative lg:col-span-5 lg:col-start-8">
+          <div className="relative min-w-0 lg:col-span-5 lg:col-start-8">
             <Orbits />
             <Terminal mx={mx} my={my} d={d} />
             <FloatChips mx={mx} my={my} />

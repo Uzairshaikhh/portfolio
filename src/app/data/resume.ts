@@ -5,7 +5,7 @@
 
 export const profile = {
   name: "Uzair Shaikh",
-  monogram: "UZ",
+  monogram: "US",
   roles: [
     "Frontend Developer",
     "React Developer",
