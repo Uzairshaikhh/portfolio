@@ -53,8 +53,8 @@ export function About() {
             </Reveal>
             <Reveal delay={0.05}>
               <p>
-                I've independently designed, built and deployed <Key>four production websites</Key> — a content platform,
-                B2B business sites and an NGO — and I own each one end to end: component architecture, responsive UI,
+                I've independently designed, built and deployed <Key>five production websites</Key> — a content platform,
+                B2B, law firm and NGO sites — and I own each one end to end: component architecture, responsive UI,
                 backend integration and live deployment.
               </p>
             </Reveal>

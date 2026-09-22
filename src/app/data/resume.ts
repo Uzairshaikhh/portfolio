@@ -76,6 +76,36 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "trieagle-associates",
+    name: "TriEagle & Associates",
+    kind: "Law firm marketing website",
+    blurb:
+      "A premium marketing site for a full-service law firm — a dark navy-and-gold design covering practice areas, the team, and consultation booking.",
+    stack: ["Next.js", "TailwindCSS"],
+    domain: "thetrieagle.com",
+    href: "https://www.thetrieagle.com/",
+    image: {
+      src: "/projects/trieagle-associates.jpg",
+      alt: "Screenshot of the TriEagle & Associates website: a dark navy hero with a gold eagle-and-column emblem and a law firm tagline.",
+    },
+    study: {
+      overview:
+        "A marketing website for TriEagle & Associates, a full-service law firm, covering their practice areas, team, and client consultation flow.",
+      built:
+        "A dark, editorial site in Next.js and TailwindCSS, built to read as premium and trustworthy for a legal audience.",
+      features: [
+        "Practice-area breakdown (corporate, litigation, IP, family and real estate law)",
+        "Consultation booking and newsletter sign-up",
+        "Dark navy-and-gold visual identity with a custom emblem",
+        "Responsive across devices",
+      ],
+      challenge:
+        "Presenting a law firm's range of practice areas and credibility without the page feeling generic or template-driven.",
+      solution:
+        "A custom dark, gold-accented identity — including a bespoke eagle-and-column emblem — built around clear practice-area sections and a direct path to booking a consultation.",
+    },
+  },
+  {
     slug: "sm-fabrication",
     name: "SM Fabrication",
     kind: "Industrial business inquiry website",
@@ -209,11 +239,12 @@ export const skillGroups: SkillGroup[] = [
     group: "Frontend",
     note: "Where I spend most of my time",
     items: [
-      { id: "react", name: "React.js", stackKey: "React.js", blurb: "My primary stack — the component architecture behind all four production sites." },
+      { id: "react", name: "React.js", stackKey: "React.js", blurb: "My primary stack — the component architecture behind four of the five production sites." },
+      { id: "nextjs", name: "Next.js", stackKey: "Next.js", blurb: "Used for TriEagle & Associates — routing, layouts and a production build." },
       { id: "html", name: "HTML5", blurb: "Semantic markup as the foundation of every page." },
       { id: "css", name: "CSS3", blurb: "Layout and responsive behavior, from phone to desktop." },
       { id: "tailwind", name: "TailwindCSS", stackKey: "TailwindCSS", blurb: "The styling system across every production site." },
-      { id: "vite", name: "Vite", stackKey: "Vite", blurb: "Build tooling and dev server across every project." },
+      { id: "vite", name: "Vite", stackKey: "Vite", blurb: "Build tooling and dev server on four of the five projects." },
       { id: "responsive", name: "Responsive UI", blurb: "Interfaces that adapt cleanly across devices." },
       { id: "components", name: "Component Architecture", blurb: "A reusable component library on AnimeDropZone cut duplicate UI code across pages." },
     ],
@@ -269,6 +300,7 @@ export const timeline = [
     meta: "2024 — Present · Freelance / Self-Directed · Mumbai, India",
     points: [
       "Designed, developed and deployed four client/production websites end to end with React.js, Vite and TailwindCSS.",
+      "Also designed and built a fifth site, a law firm marketing website, using Next.js and TailwindCSS.",
       "Integrated backend form handling with SMTP-based email automation for real-time client notifications.",
       "Managed hosting, deployment pipelines and ongoing production maintenance independently across all projects.",
       "Used Git/GitHub for version control, maintaining a clean, organized commit history.",

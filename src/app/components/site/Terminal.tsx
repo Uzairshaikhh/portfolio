@@ -5,7 +5,7 @@ const lines: [string, string?][] = [
   ["const ", "uzair = {"],
   ["  roles: ", '["Frontend", "Backend", "Full-Stack"],'],
   ["  stack: ", '["React", "Vite", "Tailwind"],'],
-  ["  shipped: ", "4,"],
+  ["  shipped: ", "5,"],
   ["  base: ", '"Mumbai, IN",'],
   ["  openTo: ", '"remote roles",'],
   ["};"],

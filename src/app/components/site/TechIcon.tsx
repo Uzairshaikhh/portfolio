@@ -1,5 +1,5 @@
 import {
-  siReact, siJavascript, siTypescript, siC, siCplusplus, siHtml5, siCss,
+  siReact, siNextdotjs, siJavascript, siTypescript, siC, siCplusplus, siHtml5, siCss,
   siTailwindcss, siNodedotjs, siVite, siGit, siGithub, siGooglechrome,
 } from "simple-icons";
 import {
@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 const brand: Record<string, { path: string }> = {
-  react: siReact, js: siJavascript, ts: siTypescript, c: siC, cpp: siCplusplus,
+  react: siReact, nextjs: siNextdotjs, js: siJavascript, ts: siTypescript, c: siC, cpp: siCplusplus,
   html: siHtml5, css: siCss, tailwind: siTailwindcss, node: siNodedotjs,
   vite: siVite, git: siGit, github: siGithub, devtools: siGooglechrome,
 };

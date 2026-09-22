@@ -159,7 +159,7 @@ export function Hero() {
             <RoleRotator />
             <p className="max-w-xl text-lg leading-relaxed text-mute">
               I design, build and ship fast, responsive products with{" "}
-              <span className="text-ink">React.js, Vite and TailwindCSS</span> — four production websites so far,
+              <span className="text-ink">React.js, Next.js and TailwindCSS</span> — five production websites so far,
               each owned end to end, from component architecture and Node.js form services to live deployment.
             </p>
 

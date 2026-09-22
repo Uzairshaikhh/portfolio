@@ -151,7 +151,7 @@ export function Work() {
             </MaskLine>
           </h2>
           <p className="max-w-xs text-mute">
-            Four production websites — designed, built, deployed and maintained end to end.
+            Five production websites — designed, built, deployed and maintained end to end.
           </p>
         </div>
 
